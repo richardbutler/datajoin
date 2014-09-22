@@ -1,6 +1,6 @@
 {
   "name": "datajoin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Richard Butler <rich@pinstripe.io>",
   "main": "datajoin.js",
   "repository": {
