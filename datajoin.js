@@ -98,8 +98,8 @@ function dataJoin() {
         cache = {};
 
         var newIndex = id ? _.indexBy(newData, id) : undefined;
-        var newDataIds = _.map(newData, function (d) {
-            return id ? id(d) : d;
+        var newDataIds = _.map(newData, function (d, i) {
+            return id ? id(d, i) : d;
         });
 
         enter = data ? _.without.apply(_, [newDataIds].concat(data)) : newDataIds;
