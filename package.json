@@ -1,0 +1,12 @@
+{
+  "name": "datajoin",
+  "version": "0.1.0",
+  "author": "Richard Butler <rich@pinstripe.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardbutler/datajoin.git"
+  },
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}
