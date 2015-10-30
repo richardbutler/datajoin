@@ -1,4 +1,4 @@
-/*global _*/
+var _ = require('lodash');
 
 /**
  * Emulates d3's data binding mechanism for non-DOM selections. It will either
